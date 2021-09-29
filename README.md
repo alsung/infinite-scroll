@@ -19,6 +19,7 @@ The infinity scroll application created will be mobile responsive as well, narro
  - Unsplash API
 
 ## Resources
+ - https://loading.io: create custom animated SVG loader icon
 
 ## Contributors
  - [**Alexander Sung**](https://github.com/alsung) - Creator
