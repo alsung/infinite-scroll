@@ -1,5 +1,5 @@
-# Infinity Scroll
-JS Web Project Infinity Scroll\
+# Infinite Scroll
+JS Web Project Infinite Scroll\
 View Here: https://alsung.github.io/infinity-scroll/
 
 ## About
