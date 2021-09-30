@@ -25,6 +25,9 @@ The functionality for fetching data from the Unsplash API using JS, creating ele
 For implementing infinite scrolling, we can think of the window as the parent of the document and the grandparent of the body (where our event listener is attached), represents the entire browser window. We need 'window.innerHeight', which represents the total height of the browser window, and we need 'window.scrollY' which tracks the distance from top of page the user has scrolled. (All values are in pixels). We will add these two values together and compare it to the 'document.body.offsetHeight', which represents the height of everything in the body, including what is not within view (combined height of all images). However, we can't have just the documment.body.offsetHeight, we will need to modify it a little bit by subtracting a pixel amount (1000 pixels but can be any value), this way we can trigger an event to request to load more images before the bottom of page is reached. 
 ![Figure 2](/images/Infinite+Scroll+Functionality.png)
 
+## Issues
+The Unsplash API supports up to 50 image requests/hour so if no images are appearing when reloading the site, check back again in an hour, and the images should load normally. 
+
 ## Resources
  - https://loading.io: create custom animated SVG loader icon
  - https://unsplash.com/documentation: Unsplash image API
