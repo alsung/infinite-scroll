@@ -1,5 +1,6 @@
 # Infinity Scroll
 JS Web Project Infinity Scroll
+View Here: https://alsung.github.io/infinity-scroll/
 
 ## About
 The goal of this project is to implement the infinity scroll functionality seen on many social media applications as a user scrolls towards the bottom of the page, another network request is made, before the user reaches the bottom, so you don't see it and it feels as if you're seamlessly scrolling forever. The images we are using for our project are from the Unsplash API, and we track the moment all the images are loaded in order to dynamically hide our loading animation. 
