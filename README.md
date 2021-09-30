@@ -18,8 +18,13 @@ The infinity scroll application created will be mobile responsive as well, narro
 ### APIs
  - Unsplash API
 
+## Functionality
+The functionality for fetching data from the Unsplash API using JS, creating elements to display the photo data, and passing the data to those displayed elements is described in Figure 1. 
+![Figure 1](/images/Unsplash_API_Flowchart.png) 
+
 ## Resources
  - https://loading.io: create custom animated SVG loader icon
+ - https://unsplash.com/documentation: Unsplash image API
 
 ## Contributors
  - [**Alexander Sung**](https://github.com/alsung) - Creator
